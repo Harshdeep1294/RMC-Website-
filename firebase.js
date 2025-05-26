@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC5DmJlvriIcNw4Yhew4hWDzwrPYZf-qNE",
+    // apiKey: "YOUR_FIREBASE_API_KEY_HERE",    <- enter your API key 
     authDomain: "rmcproject-3d01d.firebaseapp.com",
     projectId: "rmcproject-3d01d",
     storageBucket: "rmcproject-3d01d.appspot.com",
