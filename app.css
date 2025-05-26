@@ -1,0 +1,27 @@
+Basic container styling
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    position: relative;
+  }
+  
+  /* Each item has a lower z-index by default */
+  .item {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    border: 2px solid #333;
+    z-index: 1;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    position: relative;
+  }
+  
+  /* When hovered, increase the z-index and apply some transform for effect */
+  .item:hover {
+    z-index: 10;
+    transform: scale(1.2); /* Optional: scaling effect for better visibility */
+    box-shadow: 0px 18px 18px rgba(0, 0, 0, 0.383);
+  }
+  
